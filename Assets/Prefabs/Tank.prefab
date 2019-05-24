@@ -143,7 +143,7 @@ MonoBehaviour:
   - {fileID: 1977039397222618, guid: 789e2903d3d1c434192bd40e75cb9719, type: 2}
   Track: {fileID: 1928451427571014, guid: b04d5a45c45827c40af028a1d4a9b6b6, type: 2}
   moveTime: 0.05
-  shootingTime: 0.1
+  shootingTime: 1
 --- !u!212 &212100780056169152
 SpriteRenderer:
   m_ObjectHideFlags: 1

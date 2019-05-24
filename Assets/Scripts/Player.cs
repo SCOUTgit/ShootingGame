@@ -9,11 +9,9 @@ public class Player : MonoBehaviour {
     public float moveTime;
     public float shootingTime;
 
-    private Rigidbody2D rigidbody2D;
 
 	// Use this for initialization
 	void Start () {
-        rigidbody2D = GetComponent<Rigidbody2D>();
         StartCoroutine("Road");
         StartCoroutine("Shoot");
     }
